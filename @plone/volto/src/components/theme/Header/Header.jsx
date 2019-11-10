@@ -54,11 +54,14 @@ export default class Header extends Component {
               </div>
               <Navigation pathname={this.props.pathname} />
             </div>
+
+            {/* // Hidde Login or Register infos
             {!this.props.token && (
               <div className="tools">
                 <Anontools />
               </div>
-            )}
+            )} */}
+
             <div className="search">
               <SearchWidget pathname={this.props.pathname} />
             </div>
