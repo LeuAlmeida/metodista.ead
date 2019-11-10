@@ -27,9 +27,9 @@ const messages = defineMessages({
  * @returns {string} Markup of the component
  */
 const Footer = ({ intl }) => (
-  <Segment vertical padded inverted color="grey" textAlign="center">
+  <Segment vertical padded inverted color="red" textAlign="center">
     <Container>
-      <Segment basic inverted color="grey" className="discreet">
+      <Segment basic inverted color="red" className="discreet">
         <FormattedMessage
           id="The {plonecms} is {copyright} 2000-{current_year} by the {plonefoundation} and friends."
           defaultMessage="The {plonecms} is {copyright} 2000-{current_year} by the {plonefoundation} and friends."
@@ -97,14 +97,10 @@ const Footer = ({ intl }) => (
 );
 
 /**
- * Property types.
  * @property {Object} propTypes Property types.
  * @static
  */
 Footer.propTypes = {
-  /**
-   * i18n object
-   */
   intl: intlShape.isRequired,
 };
 
