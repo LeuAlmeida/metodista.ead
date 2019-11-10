@@ -96,7 +96,7 @@ them, so in `package.json`:
   "jest": {
     ...
     "moduleNameMapper": {
-      "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
+      "@plone/volto/(.*)$": "<rootDir>/@plone/volto/src/$1",
       "@package/(.*)$": "<rootDir>/src/$1",
       "@plone/my-volto-addon/(.*)$": "<rootDir>/src/addons/@plone/my-volto-addon/src/$1",
       "~/(.*)$": "<rootDir>/src/$1"
@@ -111,7 +111,7 @@ you import from a package that does not yet exist (since it's an alias).
 
 ```json hl_lines="9"
 {
-  "extends": "./node_modules/@plone/volto/.eslintrc",
+  "extends": "./@plone/volto/.eslintrc",
   "settings": {
     "import/resolver": {
       "alias": {

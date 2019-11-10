@@ -113,7 +113,7 @@ msgstr ""
 function poToJson() {
   map(glob('locales/**/*.po'), filename => {
     let { items } = Pofile.parse(fs.readFileSync(filename, 'utf8'));
-    const lib = `node_modules/@plone/volto/${filename}`;
+    const lib = `@plone/volto/${filename}`;
     if (fs.existsSync(lib)) {
       const libItems = Pofile.parse(fs.readFileSync(lib, 'utf8')).items;
       items = [...libItems, ...items];

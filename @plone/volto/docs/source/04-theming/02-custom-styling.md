@@ -57,7 +57,7 @@ Volto look and feel is a Semantic UI theme that implements Pastanaga UI, called
 
 !!! tip
     You can find it in the source code:
-    `node_modules/@plone/volto/theme/themes/pastanaga`
+    `@plone/volto/theme/themes/pastanaga`
     or on Github:
     https://github.com/plone/volto/tree/master/theme/themes/pastanaga
 

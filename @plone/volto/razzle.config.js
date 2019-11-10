@@ -153,7 +153,7 @@ module.exports = {
 
     let voltoPath = `${projectRootPath}`;
     if (packageJson.name !== '@plone/volto') {
-      voltoPath = `${projectRootPath}/node_modules/@plone/volto`;
+      voltoPath = `${projectRootPath}/@plone/volto`;
     }
 
     const jsconfigPaths = {};

@@ -1,5 +1,5 @@
 {
-  "extends": "./node_modules/@plone/volto/.eslintrc",
+  "extends": "./@plone/volto/.eslintrc",
   "settings": {
     "import/resolver": {
       "alias": {
