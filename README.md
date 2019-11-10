@@ -1,52 +1,37 @@
-## Documentation
+<h1 align="center"> Educação a Distância</h1>
 
-A training on how to create your own website using Volto is available as part of the Plone training at [https://training.plone.org/5/volto/index.html](https://training.plone.org/5/volto/index.html).
+<h5 align="center">Instruções para executar o projeto</h5>
 
-## Quick Start
+```js
+// Clone este repositório
+$ git clone https://github.com/LeuAlmeida/metodista.ead.git
 
-Below is a list of commands you will probably find useful.
+// Entre no projeto
+$ cd metodista.ead
 
-### `yarn start`
+// Instale as dependências
+$ yarn
 
-Runs the project in development mode.  
-You can view your application at `http://localhost:3000`
-
-The page will reload if you make edits.
-
-### `yarn build`
-
-Builds the app for production to the build folder.
-
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
-
-### `yarn start:prod`
-
-Runs the compiled app in production.
-
-You can again view your application at `http://localhost:3000`
-
-### `yarn test`
-
-Runs the test watcher (Jest) in an interactive mode.
-By default, runs tests related to files changed since the last commit.
-
-### `yarn i18n`
-
-Runs the test i18n runner which extracts all the translation strings and
-generates the needed files.
-
-
-### mr_developer
-
-[mr_developer](https://www.npmjs.com/package/mr-developer) is a great tool
-for developing multiple packages at the same time.
-
-mr_developer should work with this project by using the `--config` config option:
-
-```bash
-mrdeveloper --config=jsconfig.json
+// Rode o frontend
+$ yarn start
 ```
 
-Volto's latest razzle config will pay attention to your jsconfig.json file
-for any customizations.
+<h5 align="center">Instruções para executar o backend da aplicação</h5>
+
+```js
+// Em um novo terminal, execute o comando
+$ docker run --rm -it -p 8080:8080 kitconcept/plone.restapi:latest
+```
+<hr/>
+
+<p align="center">
+
+<a href="http://linkedin.com/in/leonardoalmeida99">Connect me in LinkedIn</a> | <a href="http://behance.net/almeida99">See my Behance</a> | <a href="https://leunardo.dev">Click here to go to my CV</a>
+
+<img src="http://unimep.edu.br/msg/campanha/vestibular/2019/2-semestre/inscricoes/imagens/logo-educacao-cinza.png">
+
+Mais informações em breve.
+
+
+</p>
+
