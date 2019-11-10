@@ -1,0 +1,73 @@
+/*******************************
+             Table
+*******************************/
+
+/*-------------------
+       Element
+--------------------*/
+
+/*--------------
+     Parts
+---------------*/
+
+/* Table Row */
+
+/* Table Cell */
+
+/* Table Header */
+@headerBackground: @white;
+@headerFontWeight: @normal;
+@headerTextTransform: uppercase;
+
+/* Table Footer */
+@footerBackground: @white;
+
+/* Responsive Size */
+
+/*-------------------
+       Types
+--------------------*/
+
+/* Definition */
+
+/*--------------
+    Couplings
+---------------*/
+
+/*--------------
+     States
+---------------*/
+
+/* Positive */
+
+/* Negative */
+
+/* Error */
+
+/* Warning */
+
+/* Active */
+
+/*--------------
+     Types
+---------------*/
+
+/* Attached */
+
+/* Striped */
+
+/* Selectable */
+
+/* Sortable */
+
+/* Colors */
+
+/* Inverted */
+
+/* Basic */
+
+/* Padded */
+
+/* Compact */
+
+/* Sizes */
