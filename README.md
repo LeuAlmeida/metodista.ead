@@ -31,6 +31,9 @@ $ yarn start
 
 ```js
 // Em um novo terminal, execute o comando
+$ docker run --name=plone -p 8080:8080 -e SITE=Plone -e ADDONS="kitconcept.voltodemo" -e ZCML="kitconcept.voltodemo.cors" plone/plone
+
+// Outra alternativa é usar o comando
 $ docker run --rm -it -p 8080:8080 kitconcept/plone.restapi:latest
 ```
 <hr/>
