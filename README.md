@@ -36,7 +36,7 @@ $ docker run --rm -it -p 8080:8080 kitconcept/plone.restapi:latest
 <hr/>
 
 <p align="center">
-<a href="http://linkedin.com/in/leonardoalmeida99">Connect me in LinkedIn</a> | <a href="http://behance.net/almeida99">See my Behance</a> | <a href="https://leunardo.dev">Click here to go to my CV</a>
+<a href="http://linkedin.com/in/leonardoalmeida99">Conecte-se comigo no LinkedIn</a> | <a href="http://behance.net/almeida99">Veja o meu Behance</a> | <a href="https://leunardo.dev">Clique aqui para ir ao meu CV</a>
 </p>
 <p align="center">
 <img src="http://unimep.edu.br/msg/campanha/vestibular/2019/2-semestre/inscricoes/imagens/logo-educacao-cinza.png">
