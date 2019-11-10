@@ -8,7 +8,7 @@
 - [Python 3.7.x / 2.7.x](https://python.org/) ou
 - [Docker](https://www.docker.com/get-started) (caso esteja usando as imagens Plone/Guillotina do Docker)
 
-<h5 align="center">Instruções para executar o projeto</h5>
+<h4 align="center">Instruções para executar o projeto</h4>
 
 ```js
 // Clone este repositório
@@ -27,7 +27,7 @@ $ yarn
 $ yarn start
 ```
 
-<h5 align="center">Instruções para executar o backend da aplicação</h5>
+<h4 align="center">Instruções para executar o backend da aplicação</h4>
 
 ```js
 // Em um novo terminal, execute o comando
