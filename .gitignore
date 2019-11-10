@@ -4,8 +4,13 @@ logs
 npm-debug.log*
 .DS_Store
 
+# Node Modules
+node_modules/*
+!node_modules/@plone
+!node_modules/@plone/volto
+!node_modules/@plone/volto/*
+
 coverage
-node_modules
 build
 .env.local
 .env.development.local
