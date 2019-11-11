@@ -55,7 +55,23 @@ const Footer = ({ intl }) => (
             ),
           }}
         />{' '}
-
+        <FormattedMessage
+          id="Distributed under the {license}."
+          defaultMessage="Distributed under the {license}."
+          values={{
+            license: (
+              <a
+                className="item"
+                href="http://creativecommons.org/licenses/GPL/2.0/"
+              >
+                <FormattedMessage
+                  id="GNU GPL license"
+                  defaultMessage="GNU GPL license"
+                />
+              </a>
+            ),
+          }}
+        />
       </Segment>
 
     </Container>
