@@ -4,11 +4,7 @@ logs
 npm-debug.log*
 .DS_Store
 
-# Node Modules
-node_modules/*
-!node_modules/@plone
-!node_modules/@plone/volto
-!node_modules/@plone/volto/*
+node_modules/
 
 coverage
 build

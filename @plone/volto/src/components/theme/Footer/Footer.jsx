@@ -73,6 +73,25 @@ const Footer = ({ intl }) => (
           }}
         />
       </Segment>
+      {/* <List horizontal inverted>
+        <List.Item href="/sitemap">
+          <FormattedMessage id="Site Map" defaultMessage="Site Map" />
+        </List.Item>
+        <List.Item href="/accessibility-info">
+          <FormattedMessage id="Accessibility" defaultMessage="Accessibility" />
+        </List.Item>
+        <List.Item>
+          <Link to="contact-form" className="item">
+            <FormattedMessage id="Contact" defaultMessage="Contact" />
+          </Link>
+        </List.Item>
+        <List.Item href="http://plone.com">
+          <FormattedMessage
+            id="Powered by Plone & Python"
+            defaultMessage="Powered by Plone & Python"
+          />
+        </List.Item>
+      </List> */}
     </Container>
   </Segment>
 );
